@@ -1,0 +1,20 @@
+[workspace]
+authors = ["David Fekke <david@fekke.com>"]
+channels = ["conda-forge"]
+name = "pyjax-pytorch"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.14.*"
+pytorch = ">=2.13.0,<3"
+safetensors = ">=0.8.0,<0.9"
+
+[pypi-dependencies]
+torch = "*"
+pandas = ">=2.3.3,<3"
+matplotlib = ">=3.10.8,<4"
+ipykernel = ">=7.2.0,<8"
+seaborn = ">=0.13.2,<0.14"
